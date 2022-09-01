@@ -103,12 +103,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let findVC = FindViewController()
         let downloadsVC = DownloadsViewController()
         let myStuffVC = MyStuffViewController()
-        
+
         let storeNC = UINavigationController(rootViewController: storeVC)
         let findNC = UINavigationController(rootViewController: findVC)
         let dowloadsNC = UINavigationController(rootViewController: downloadsVC)
         let myStuffNC = UINavigationController(rootViewController: myStuffVC)
-        
+
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = [homeVC, storeNC, findNC, dowloadsNC, myStuffNC]
         tabBarController.tabBar.tintColor = UIColor(named: "amazonColor")

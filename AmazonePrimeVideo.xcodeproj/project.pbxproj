@@ -11,6 +11,8 @@
 		3B7560CC28C12CB300415652 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7560CB28C12CB300415652 /* HomeViewController.swift */; };
 		3B7560D128C12CB600415652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7560D028C12CB600415652 /* Assets.xcassets */; };
 		3B7560D428C12CB600415652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7560D228C12CB600415652 /* LaunchScreen.storyboard */; };
+		3B7560DE28C1496300415652 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7560DD28C1496300415652 /* HeaderView.swift */; };
+		3B7560E528C1612B00415652 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7560E428C1612B00415652 /* Factories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		3B7560D028C12CB600415652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B7560D328C12CB600415652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B7560D528C12CB600415652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7560DD28C1496300415652 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3B7560E428C1612B00415652 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +58,8 @@
 			children = (
 				3B7560DB28C12CF000415652 /* Files */,
 				3B7560C728C12CB300415652 /* AppDelegate.swift */,
-				3B7560CB28C12CB300415652 /* HomeViewController.swift */,
+				3B7560E428C1612B00415652 /* Factories.swift */,
+				3B7560DC28C1494500415652 /* Home */,
 			);
 			path = AmazonePrimeVideo;
 			sourceTree = "<group>";
@@ -67,6 +72,15 @@
 				3B7560D528C12CB600415652 /* Info.plist */,
 			);
 			name = Files;
+			sourceTree = "<group>";
+		};
+		3B7560DC28C1494500415652 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3B7560CB28C12CB300415652 /* HomeViewController.swift */,
+				3B7560DD28C1496300415652 /* HeaderView.swift */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7560E528C1612B00415652 /* Factories.swift in Sources */,
 				3B7560CC28C12CB300415652 /* HomeViewController.swift in Sources */,
+				3B7560DE28C1496300415652 /* HeaderView.swift in Sources */,
 				3B7560C828C12CB300415652 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
