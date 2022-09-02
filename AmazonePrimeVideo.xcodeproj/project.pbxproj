@@ -13,6 +13,7 @@
 		3B7560D428C12CB600415652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7560D228C12CB600415652 /* LaunchScreen.storyboard */; };
 		3B7560DE28C1496300415652 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7560DD28C1496300415652 /* HeaderView.swift */; };
 		3B7560E528C1612B00415652 /* Factories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7560E428C1612B00415652 /* Factories.swift */; };
+		3B75611028C1C12000415652 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B75610F28C1C12000415652 /* MenuBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3B7560D528C12CB600415652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B7560DD28C1496300415652 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		3B7560E428C1612B00415652 /* Factories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factories.swift; sourceTree = "<group>"; };
+		3B75610F28C1C12000415652 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,17 @@
 			children = (
 				3B7560CB28C12CB300415652 /* HomeViewController.swift */,
 				3B7560DD28C1496300415652 /* HeaderView.swift */,
+				3B75610E28C1C0FF00415652 /* MenuBar */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		3B75610E28C1C0FF00415652 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				3B75610F28C1C12000415652 /* MenuBarView.swift */,
+			);
+			name = MenuBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				3B7560CC28C12CB300415652 /* HomeViewController.swift in Sources */,
 				3B7560DE28C1496300415652 /* HeaderView.swift in Sources */,
 				3B7560C828C12CB300415652 /* AppDelegate.swift in Sources */,
+				3B75611028C1C12000415652 /* MenuBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

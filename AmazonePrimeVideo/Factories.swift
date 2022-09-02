@@ -33,3 +33,13 @@ extension UIViewController {
         removeFromParent()
     }
 }
+
+func makeButton(withText text: String) -> UIButton {
+    let button = UIButton()
+    button.translatesAutoresizingMaskIntoConstraints = false
+    button.setTitle(text, for: .normal)
+    button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .callout)
+    button.titleLabel?.adjustsFontSizeToFitWidth = true
+    
+    return button
+}
